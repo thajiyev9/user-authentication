@@ -1,0 +1,58 @@
+.Header {
+  background-color: #20232a;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.left {
+  display: flex;
+  width: 150px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  width: 200px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logout {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 20px 10px;
+  transition: all 0.1s;
+}
+
+.logout:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #20232a;
+}
+
+a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 20px 10px;
+  transition: all 0.1s;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #20232a;
+}
+
+.name {
+  color: white;
+  cursor: pointer;
+}

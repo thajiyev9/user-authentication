@@ -1,0 +1,11 @@
+.Private {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.private {
+    font-size: 100px;
+    color: rgb(255, 0, 0);
+}
